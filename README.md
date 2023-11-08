@@ -1,2 +1,1 @@
-# Empresa-Musicguitarshop
-Leonardo Gonzalez Mendoza
+# BOOTSTRAP-MVC-POO-PDO
