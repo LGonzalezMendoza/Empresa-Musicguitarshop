@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-11-2023 a las 09:05:29
+-- Tiempo de generación: 09-11-2023 a las 08:11:07
 -- Versión del servidor: 10.4.27-MariaDB
 -- Versión de PHP: 8.2.0
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `prueba`
+-- Base de datos: `bd_guitarmusicshop`
 --
 
 -- --------------------------------------------------------
@@ -43,7 +43,7 @@ CREATE TABLE `tbl_productos` (
 --
 
 INSERT INTO `tbl_productos` (`id`, `precio`, `nom`, `color`, `modelo`, `tipo`, `equipo`, `marca`) VALUES
-(28, '400000', 'tekamine', 'rojo', 'brrr', 'brrr', 'nrrr', 'dcscvdsv');
+(28, '400000', 'tekamine', 'rojo', 'legacy', 'cuerdas', 'mochila', 'Tekamine');
 
 --
 -- Índices para tablas volcadas
@@ -69,3 +69,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
